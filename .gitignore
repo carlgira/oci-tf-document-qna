@@ -163,4 +163,5 @@ server.key
 server.key.pub
 .terraform*
 terraform.tfstate
+terraform.tfstate.backup
 LOCAL.md
