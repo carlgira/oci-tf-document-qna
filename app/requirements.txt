@@ -1,0 +1,14 @@
+langchain
+chromadb
+pypdf
+unstructured
+requests
+gradio
+flask
+opensearch-py
+transformers
+torch
+bitsandbytes
+accelerate
+scipy
+xformers
