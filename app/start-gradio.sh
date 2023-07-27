@@ -10,7 +10,7 @@ fi
 
 if [[ -z "${LAUNCH_SCRIPT}" ]]
 then
-    LAUNCH_SCRIPT="flask-opensearch.py"
+    LAUNCH_SCRIPT="gradio-opensearch.py"
 fi
 
 # Name of the subdirectory
