@@ -161,3 +161,6 @@ cython_debug/
 
 server.key
 server.key.pub
+.terraform*
+terraform.tfstate
+LOCAL.md

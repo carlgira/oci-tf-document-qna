@@ -40,7 +40,7 @@ EOT
 su -c "git clone https://github.com/carlgira/oci-tf-document-qna /home/$USER/oci-tf-document-qna" $USER
 HF_TOKEN=`curl -L http://169.254.169.254/opc/v1/instance/ | jq -r '.metadata."hf_token"'`
 su -c "sed -i 's/HF_TOKEN/$HF_TOKEN/g' /home/$USER/oci-tf-document-qna/app/start-gradio.sh" $USER
-su -c "sed -i 's/HF_TOKEN/$HF_TOKEN/g' /home/$USER/oci-tf-document-qna/app/start-gradio.sh" $USER
+su -c "sed -i 's/HF_TOKEN/$HF_TOKEN/g' /home/$USER/oci-tf-document-qna/app/start-flask.sh" $USER
 
 # Gradio web UI
 cat <<EOT >> /etc/systemd/system/gradio.service

@@ -10,7 +10,7 @@ fi
 
 if [[ -z "${LAUNCH_SCRIPT}" ]]
 then
-    LAUNCH_SCRIPT="app-opensearch.py"
+    LAUNCH_SCRIPT="flask-opensearch.py"
 fi
 
 # Name of the subdirectory
@@ -39,7 +39,7 @@ fi
 # python3 venv without trailing slash (defaults to ${install_dir}/${clone_dir}/venv)
 if [[ -z "${venv_dir}" ]]
 then
-    venv_dir=".venv"
+    venv_dir=".venv-gradio"
 fi
 
 
