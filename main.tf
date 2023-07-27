@@ -114,7 +114,7 @@ resource "oci_core_virtual_network" "infra_vcn" {
 output "instance_public_ip" {
   value = <<EOF
   
-  Wait 10 minutes for the apps to be ready.
+  Wait 15 minutes for the apps to be ready.
 
   ssh -i server.key opc@${oci_core_instance.instance.public_ip}
   
